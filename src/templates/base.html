@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>TechNova Inventory</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>TechNova Inventory System</h1>
+        <nav>
+            <a href="/">Inicio</a>
+            <a href="/auth/login">Login</a>
+            <a href="/auth/register">Registro</a>
+            <a href="/products/">Productos</a>
+        </nav>
+    </header>
+    <main class="container">
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2025 TechNova Solutions</p>
+    </footer>
+</body>
+</html>
