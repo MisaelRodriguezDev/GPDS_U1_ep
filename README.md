@@ -61,3 +61,6 @@ o ejecuta con python
 ```bash
 $ python -m src.main
 ```
+
+## Autor
+Misael Rodríguez
