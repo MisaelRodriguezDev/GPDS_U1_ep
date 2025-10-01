@@ -10,7 +10,7 @@ Aplicación web para gestionar productos e inventarios con **FastAPI**, **SQLite
 
 ## Estructura
 ```text
-GPDS_examen-práctico/
+GPDS_U1_ep/
 ├── src/
 │   ├── routers/              # Enrutadores por módulo
 │   ├── static/               # Archivos estáticos
