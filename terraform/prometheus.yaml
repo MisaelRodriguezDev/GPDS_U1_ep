@@ -1,0 +1,9 @@
+# SOLO REFERENCIA
+
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: "gpds-ep"
+    static_configs:
+      - targets: ["gpds-ep:8000"]  # nombre del contenedor FastAPI
