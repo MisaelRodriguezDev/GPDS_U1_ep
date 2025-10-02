@@ -1,6 +1,14 @@
 name: GPDS examen practico
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+      - 'sprint-*'
+  pull_request:
+    branches:
+      - main
+      - 'sprint-*'
 
 jobs:
   ci/cd:
